@@ -1,5 +1,5 @@
 '''Author: Brandon Trabucco, Copyright 2019
-Implements the scaled dot product attention mechamism from the transformer.
+Implements the scaled dot product attention mechanism from the transformer.
 Vaswani, A. et al. https://arxiv.org/pdf/1706.03762.pdf'''
 
 
