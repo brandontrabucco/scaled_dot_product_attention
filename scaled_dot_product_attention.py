@@ -59,7 +59,7 @@ class TransformerStateTuple(collections.namedtuple("TransformerStateTuple", ("se
         return sequences.dtype
 
 
-class TransformerCell(tf.contrib.rnn.LayerRNNCell):
+class TransformerCell(tf.nn.rnn_cell.LayerRNNCell):
 
     def __init__(self, num_input_attention_layers, num_self_attention_layers, 
             num_input_attention_heads, num_self_attention_heads,
