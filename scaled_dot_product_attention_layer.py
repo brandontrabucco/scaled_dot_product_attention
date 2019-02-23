@@ -9,7 +9,7 @@ import tensorflow as tf
 class ScaledDotProductAttentionLayer(tf.keras.layers.Layer):
 
     def __init__(self, num_heads, hidden_size, output_size, **kwargs):
-        super(TransformerModule, self).__init__(**kwargs)
+        super(ScaledDotProductAttentionLayer, self).__init__(**kwargs)
         self.num_heads = num_heads
         self.hidden_size = hidden_size
         self.query_map = tf.keras.layers.Dense(hidden_size * num_heads)
